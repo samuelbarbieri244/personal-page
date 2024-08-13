@@ -60,6 +60,19 @@
             padding-left: 20px;
         }
 
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
         footer {
             background: #333;
             color: #fff;
@@ -68,19 +81,6 @@
             position: relative;
             bottom: 0;
             width: 100%;
-        }
-
-        .end-image {
-            text-align: center;
-            margin-top: 1rem;
-        }
-
-        .end-image img {
-            width: 80%; /* Ajuste o tamanho conforme necessário */
-            max-width: 800px; /* Tamanho máximo da imagem */
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
     </style>
 </head>
@@ -117,6 +117,12 @@
                     <li><strong>Desafios de Manobras:</strong> Superar obstáculos e aprender novas manobras traz uma sensação de conquista.</li>
                     <li><strong>Passeios Noturnos:</strong> Pedalar sob as estrelas e ver a cidade iluminada de uma perspectiva diferente é mágico.</li>
                 </ul>
+                <h4>Galeria de Fotos</h4>
+                <div class="gallery">
+                    <img src="sua-foto1.jpg" alt="Descrição da foto 1">
+                    <img src="sua-foto2.jpg" alt="Descrição da foto 2">
+                    <!-- Adicione mais imagens conforme necessário -->
+                </div>
                 <h4>Próximos Planos</h4>
                 <p>
                     Atualmente, estou planejando novos desafios e aprimorando minhas habilidades em wheeling bike. Fique ligado para mais
@@ -129,9 +135,6 @@
     <footer>
         <p>&copy; 2024 Minha Página Pessoal</p>
     </footer>
-
-    <div class="end-image">
-        <img src="https://www.cicloativismo.com/wp-content/uploads/2022/10/DSC6949-1.png" alt="Imagem de Bike">
-    </div>
 </body>
 </html>
+
