@@ -1,12 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h3 {
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .end-image {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .end-image img {
+            width: 80%; /* Ajuste o tamanho conforme necessário */
+            max-width: 800px; /* Tamanho máximo da imagem */
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
-<h1>Minha página pessoal</h1>
+    <header>
+        <h1>Bem-vindo à Minha Página Pessoal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="hobbies">
+            <h2>Hobbies e Paixões</h2>
+            <article>
+                <h3>Andar de Bike (Wheeling Bike)</h3>
+                <p>
+                    Como um entusiasta de bicicletas, o wheeling bike é mais do que apenas um passatempo para mim – é uma verdadeira paixão.
+                    Desde que comecei a pedalar, descobri uma nova maneira de explorar o mundo e desafiar meus limites. O wheeling bike é uma
+                    técnica empolgante que envolve levantar a roda dianteira da bicicleta enquanto pedala, criando uma experiência única e emocionante.
+                </p>
+                <h4>Aspectos que Eu Adoro</h4>
+                <ul>
+                    <li><strong>Desafios Técnicos:</strong> Cada manobra é um teste de habilidade e precisão.</li>
+                    <li><strong>Liberdade e Aventuras:</strong> Pedalar por diferentes terrenos e enfrentar novas rotas é uma maneira incrível de explorar a natureza.</li>
+                    <li><strong>Comunidade e Companheirismo:</strong> Participar de eventos e encontros é uma ótima forma de compartilhar experiências e fazer novos amigos.</li>
+                </ul>
+                <h4>Momentos Favoritos</h4>
+                <ul>
+                    <li><strong>Desafios de Manobras:</strong> Superar obstáculos e aprender novas manobras traz uma sensação de conquista.</li>
+                    <li><strong>Passeios Noturnos:</strong> Pedalar sob as estrelas e ver a cidade iluminada de uma perspectiva diferente é mágico.</li>
+                </ul>
+                <h4>Próximos Planos</h4>
+                <p>
+                    Atualmente, estou planejando novos desafios e aprimorando minhas habilidades em wheeling bike. Fique ligado para mais
+                    atualizações sobre minhas aventuras e conquistas!
+                </p>
+            </article>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2024 Minha Página Pessoal</p>
+    </footer>
+
+    <div class="end-image">
+        <img src="https://www.cicloativismo.com/wp-content/uploads/2022/10/DSC6949-1.png" alt="Imagem de Bike">
+    </div>
 </body>
 </html>
+
+<form method="post">
+    {{ form.hidden_tag() }}
+    <!-- outros campos do formulário -->
+</form>
