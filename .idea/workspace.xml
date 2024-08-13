@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1490365-b0c3-4021-8b6e-fbfa1ff4e79c" name="Changes" comment="primeira versão do site" />
+    <list default="true" id="a1490365-b0c3-4021-8b6e-fbfa1ff4e79c" name="Changes" comment="primeira versão do site">
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723566770624</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="primeira versão do site">
+      <option name="closed" value="true" />
+      <created>1723567283130</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723567283130</updated>
+    </task>
+    <task id="LOCAL-00008" summary="primeira versão do site">
+      <option name="closed" value="true" />
+      <created>1723567497329</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723567497329</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
